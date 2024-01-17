@@ -1,0 +1,13 @@
+prefix=/Users/parrayrouf/mlproject/venv
+exec_prefix=/Users/parrayrouf/mlproject/venv
+libdir=/Users/parrayrouf/mlproject/venv/lib
+sharedlibdir=/Users/parrayrouf/mlproject/venv/lib
+includedir=/Users/parrayrouf/mlproject/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
